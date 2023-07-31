@@ -29,6 +29,8 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    max-width: 1400px;
+        margin: 20px auto;
 }
 
 .header {
@@ -285,27 +287,12 @@ section {
     margin: 95px;
     transition: 3s;
 }
-
-@media (max-width: 1285px) {
-    .img__home-sci {
-        width: 150%;
-        height: auto;
-
-    }
-}
-
-.img__home-sci {
+ .img__home-sci {
     position: absolute;
-    max-width: 118%;
-    max-height: 118%;
+    max-width: 100%;
+        max-height: 100%;
 }
 
-@media (max-width: 706px) {
-    .img__home-sci {
-        display: none;
-
-    }
-}
 
 .home-imgHover:hover {
     background: var(--bg-color);
@@ -1028,4 +1015,112 @@ section:nth-child(odd) .animate.scroll,
     100% {
         width: 0;
     }
+}
+@media (max-height: 280px) {
+    .header a {
+        margin: 10px;
+    }
+}
+
+@media (max-height: 225px) {
+    .header a {
+        margin: 7px;
+    }
+}
+
+@media (max-height: 202px) {
+    .header a {
+        margin: 4px;
+    }
+}
+
+@media (max-height: 182px) {
+    .header a {
+        margin: 2px;
+    }
+}
+
+@media (max-height: 170px) {
+    .header a {
+        margin: 0.5px;
+    }
+}
+
+@media (max-height: 420px),
+(max-width: 796px) {
+    .img__home-sci {
+        display: none;
+
+    }
+}
+
+@media (max-height: 420px) and (orientation: landscape),
+(max-width: 796px) and (orientation: landscape) {
+
+    .home-sci {
+        position: relative;
+        margin-left: 50px;
+        margin-right: 3px;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+
+    .home-sci a {
+
+        margin-right: 10px;
+
+    }
+
+}
+
+.home-content .text-animate h3 {
+    white-space: nowrap;
+}
+
+@media (max-height: 290px) and (orientation: landscape),
+(max-width: 640px) and (orientation: landscape) {
+
+    .home-content h1 {
+        font-size: 20px;
+
+    }
+
+    .home-content .text-animate h3 {
+        font-size: 22px;
+    }
+
+    .home-content p {
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .header {
+        height: 25px;
+    }
+
+    .home-imgHover {
+        max-height: 70%;
+    }
+
+}
+
+@media (max-height: 535px) and (orientation: portrait),
+(max-width: 320px) and (orientation: portrait) {
+
+    .home-content h1 {
+        font-size: 20px;
+    }
+
+    .home-content .text-animate h3 {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 915px) {
+
+    .home-content .text-animate h3 {
+        font-size: 22px;
+    }
+
 }
