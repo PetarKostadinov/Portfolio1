@@ -4,13 +4,14 @@
 
 * {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     border: none;
     outline: none;
     scroll-behavior: smooth;
+    
 }
 
 :root {
@@ -18,19 +19,21 @@
     --second-bg-color: #112e42;
     --text-color: #ededed;
     --main-color: #00abf0;
+    max-width: 1600px;
+        margin: 0 auto;
 }
 
 html {
     font-size: 11.5px;
     /* font-size: 0.8rem; */
     overflow-x: hidden;
+    
 }
 
 body {
     background: var(--bg-color);
     color: var(--text-color);
-    max-width: 1400px;
-        margin: 20px auto;
+
 }
 
 .header {
@@ -717,6 +720,7 @@ span {
     flex-wrap: wrap;
     padding: 2rem 9%;
     background: var(--second-bg-color);
+    
 }
 
 .footer__text,
@@ -1064,7 +1068,7 @@ section:nth-child(odd) .animate.scroll,
         margin-top: 50px;
         justify-content: space-between;
     }
-
+    
     .home-sci a {
 
         margin-right: 10px;
