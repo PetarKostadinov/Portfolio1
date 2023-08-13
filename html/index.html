@@ -13,6 +13,8 @@
 
 </head>
 
+
+
 <body>
 
     <!-- header -->
@@ -48,7 +50,7 @@
             </p>
             <div class="btn-box">
                 <a href="#contact" class="btn">Hire Me</a>
-                <a href="#" class="btn">Let's Talk</a>
+                <a href="#" class="btn" id="open-chat-btn">Let's Talk</a>
                 <span class="animate" style="--i:5;"></span>
             </div>
         </div>
@@ -351,7 +353,23 @@
 
     </footer>
 
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/64d91bc7cc26a871b02f0372/1h7o190te';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
 
+        document.getElementById('open-chat-btn').addEventListener('click', function () {
+            Tawk_API.toggle();
+        });
+    </script>
+<!--End of Tawk.to Script-->
     <script src="/js/script.js"></script>
     <script const src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
