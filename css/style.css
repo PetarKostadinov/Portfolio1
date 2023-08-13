@@ -14,6 +14,7 @@
     
 }
 
+
 :root {
     --bg-color: #081b29;
     --second-bg-color: #112e42;
@@ -1126,5 +1127,6 @@ section:nth-child(odd) .animate.scroll,
 
     .home-content .text-animate h3 {
         font-size: 22px;
+    
     
 }
