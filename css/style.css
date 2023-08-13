@@ -1074,9 +1074,9 @@ section:nth-child(odd) .animate.scroll,
     .home-sci a {
 
         margin-right: 10px;
-    
-}
 
+
+}
 .home-content .text-animate h3 {
     white-space: nowrap;
 }
@@ -1105,6 +1105,7 @@ section:nth-child(odd) .animate.scroll,
     .home-imgHover {
         max-height: 70%;
     
+
 }
 
 @media (max-height: 535px) and (orientation: portrait),
@@ -1116,7 +1117,6 @@ section:nth-child(odd) .animate.scroll,
 
     .home-content .text-animate h3 {
         font-size: 22px;
-    
     
 }
 
