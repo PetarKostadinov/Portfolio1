@@ -1077,475 +1077,7 @@ section:nth-child(odd) .animate.scroll,
         margin-right: 10px;
     }
     
-    .home-content .text-animate h3 {
-        white-space: nowrap;
-    }
-    
-    @media (max-height: 290px) and (orientation: landscape),
-    (max-width: 640px) and (orientation: landscape) {
-    
-        .home-content h1 {
-            font-size: 20px;
-    
-        }
-    
-        .home-content .text-animate h3 {
-            font-size: 22px;
-        }
-    
-        .home-content p {
-            margin-bottom: 15px;
-            margin-top: 10px;
-        }
-    
-        .header {
-            height: 25px;
-        }
-    
-        .home-imgHover {
-            max-height: 70%;
-        }
-    
-    }
-    
-    @media (max-height: 535px) and (orientation: portrait),
-    (max-width: 320px) and (orientation: portrait) {
-    
-        .home-content h1 {
-            font-size: 20px;
-        }
-    
-        .home-content .text-animate h3 {
-            font-size: 22px;
-        }
-    }
-    
-    @media (max-width: 915px) {
-    
-        .home-content .text-animate h3 {
-            font-size: 22px;
-    
-        }
-    }
-    
-    @media (max-width: 915px) {
-        .home-content .text-animate h3 {
-            font-size: 22px;
-        }
-    }
-    
-    @media (max-width: 915px) {
-        .home-content .text-animate h3 {
-            font-size: 22px;
-        }
-    
-    }
-    
-    @media (max-height: 182px) {
-        .header a {
-            margin: 2px;
-        }
-    }
-    
-    @media (max-height: 170px) {
-        .header a {
-            margin: 0.5px;
-        }
-    }
-    
-    @media (max-height: 420px),
-    (max-width: 796px) {
-        .img__home-sci {
-            display: none;
-    
-        }
-    }
-    
-    @media (max-height: 420px) and (orientation: landscape),
-    (max-width: 796px) and (orientation: landscape) {
-    
-        .home-sci {
-            position: relative;
-            margin-left: 50px;
-            margin-right: 3px;
-            margin-top: 50px;
-            justify-content: space-between;
-        }
-    
-        .home-sci a {
-    
-            margin-right: 10px;
-    
-        }
-    }
-    
-    .home-content .text-animate h3 {
-        white-space: nowrap;
-    }
-    
-    @media (max-height: 290px) and (orientation: landscape),
-    (max-width: 640px) and (orientation: landscape) {
-    
-        .home-content h1 {
-            font-size: 20px;
-    
-        }
-    
-        .home-content .text-animate h3 {
-            font-size: 22px;
-        }
-    
-        .home-content p {
-            margin-bottom: 15px;
-            margin-top: 10px;
-        }
-    
-        .header {
-            height: 25px;
-        }
-    
-        .home-imgHover {
-            max-height: 70%;
-        }
-    }
-    
-    @media (max-height: 535px) and (orientation: portrait),
-    (max-width: 320px) and (orientation: portrait) {
-    
-        .home-content h1 {
-            font-size: 20px;
-        }
-    
-        .home-content .text-animate h3 {
-            font-size: 22px;
-        }
-    }
-    
-    @media (max-width: 915px) {
-    
-        .home-content .text-animate h3 {
-            font-size: 22px;
-        }
-    
-    }
-    
-    @media (max-height: 182px) {
-        .header a {
-            margin: 2px;
-        }
-    }
-    
-    @media (max-height: 170px) {
-        .header a {
-            margin: 0.5px;
-        }
-    }
-    
-    @media (max-height: 420px),
-    (max-width: 796px) {
-        .img__home-sci {
-            display: none;
-    
-        }
-    }
-    
-    @media (max-height: 420px) and (orientation: landscape),
-    (max-width: 796px) and (orientation: landscape) {
-    
-        .home-sci {
-            position: relative;
-            margin-left: 50px;
-            margin-right: 3px;
-            margin-top: 50px;
-            justify-content: space-between;
-        }
-    
-        .home-sci a {
-    
-            margin-right: 10px;
-    
-        }
-    }
-    
-    .home-content .text-animate h3 {
-        white-space: nowrap;
-    }
-    
-    @media (max-height: 290px) and (orientation: landscape),
-    (max-width: 640px) and (orientation: landscape) {
-    
-        .home-content h1 {
-            font-size: 20px;
-    
-        }
-    
-        .home-content .text-animate h3 {
-            font-size: 22px;
-        }
-    
-        .home-content p {
-            margin-bottom: 15px;
-            margin-top: 10px;
-        }
-    
-        .header {
-            height: 25px;
-        }
-    
-        .home-imgHover {
-            max-height: 70%;
-        }
-    }
-    
-    @media (max-height: 535px) and (orientation: portrait),
-    (max-width: 320px) and (orientation: portrait) {
-
-    .home-content h1 {
-            font-size: 20px;
-        }
-
-        .home-content .text-animate h3 {
-            font-size: 22px;
-        }
-        }
-
-@media (max-width: 915px) {
-
-    .home-content .text-animate h3 {
-        font-size: 22px;
-    }
-
 }
-
-@media (max-width: 915px) {
-
-    .home-content .text-animate h3 {
-        font-size: 22px;
-    }
-}
-
-@media (max-height: 182px) {
-    .header a {
-        margin: 2px;
-    }
-}
-
-@media (max-height: 170px) {
-    .header a {
-        margin: 0.5px;
-    }
-}
-
-@media (max-height: 420px),
-(max-width: 796px) {
-    .img__home-sci {
-        display: none;
-
-    }
-}
-
-@media (max-height: 420px) and (orientation: landscape),
-(max-width: 796px) and (orientation: landscape) {
-
-    .home-sci {
-        position: relative;
-        margin-left: 50px;
-        margin-right: 3px;
-        margin-top: 50px;
-        justify-content: space-between;
-    }
-
-    .home-sci a {
-
-        margin-right: 10px;
-
-    }
-}
-
-.home-content .text-animate h3 {
-    white-space: nowrap;
-}
-
-@media (max-height: 290px) and (orientation: landscape),
-(max-width: 640px) and (orientation: landscape) {
-
-    .home-content h1 {
-        font-size: 20px;
-
-    }
-
-    .home-content .text-animate h3 {
-        font-size: 22px;
-    }
-
-    .home-content p {
-        margin-bottom: 15px;
-        margin-top: 10px;
-    }
-
-    .header {
-        height: 25px;
-    }
-
-    .home-imgHover {
-        max-height: 70%;
-    }
-    
-    @media (max-height: 535px) and (orientation: portrait),
-    (max-width: 320px) and (orientation: portrait) {
-    
-        .home-content h1 {
-            font-size: 20px;
-        }
-    
-        .home-content .text-animate h3 {
-            font-size: 22px;
-        }
-    
-    }
-    
-    @media (max-width: 915px) {
-    
-        .home-content .text-animate h3 {
-            font-size: 22px;
-        }
-    }
-    
-    @media (max-height: 182px) {
-        .header a {
-            margin: 2px;
-        }
-    }
-    
-    @media (max-height: 170px) {
-        .header a {
-            margin: 0.5px;
-        }
-    }
-    
-    @media (max-height: 420px),
-    (max-width: 796px) {
-        .img__home-sci {
-            display: none;
-    
-        }
-    }
-    
-    @media (max-height: 420px) and (orientation: landscape),
-    (max-width: 796px) and (orientation: landscape) {
-    
-        .home-sci {
-            position: relative;
-            margin-left: 50px;
-            margin-right: 3px;
-            margin-top: 50px;
-            justify-content: space-between;
-        }
-    
-        .home-sci a {
-    
-            margin-right: 10px;
-    
-        }
-    }
-    
-    .home-content .text-animate h3 {
-        white-space: nowrap;
-    }
-    
-    @media (max-height: 290px) and (orientation: landscape),
-    (max-width: 640px) and (orientation: landscape) {
-    
-        .home-content h1 {
-            font-size: 20px;
-    
-        }
-    
-        .home-content .text-animate h3 {
-            font-size: 22px;
-        }
-
-        .home-content p {
-            margin-bottom: 15px;
-            margin-top: 10px;
-        }
-    
-        .header {
-            height: 25px;
-        }
-
-        .home-imgHover {
-            max-height: 70%;
-        }
-}
-
-@media (max-height: 535px) and (orientation: portrait),
-(max-width: 320px) and (orientation: portrait) {
-
-    .home-content h1 {
-        font-size: 20px;
-    }
-
-    .home-content .text-animate h3 {
-        font-size: 22px;
-    }
-    
-    @media (max-height: 535px) and (orientation: portrait),
-    (max-width: 320px) and (orientation: portrait) {
-    
-        .home-content h1 {
-            font-size: 20px;
-        }
-
-        .home-content .text-animate h3 {
-            font-size: 22px;
-        }
-}
-
-@media (max-width: 915px) {
-
-    .home-content .text-animate h3 {
-        font-size: 22px;
-    }
-
-@media (max-height: 182px) {
-    .header a {
-        margin: 2px;
-    }
-}
-
-@media (max-height: 170px) {
-    .header a {
-        margin: 0.5px;
-    }
-}
-
-@media (max-height: 420px),
-(max-width: 796px) {
-    .img__home-sci {
-        display: none;
-
-    }
-}
-
-@media (max-height: 420px) and (orientation: landscape),
-(max-width: 796px) and (orientation: landscape) {
-
-    .home-sci {
-        position: relative;
-        margin-left: 50px;
-        margin-right: 3px;
-        margin-top: 50px;
-        justify-content: space-between;
-    }
-
-    .home-sci a {
-
-        margin-right: 10px;
-
-    }
-}
-
 .home-content .text-animate h3 {
     white-space: nowrap;
 }
@@ -1593,6 +1125,197 @@ section:nth-child(odd) .animate.scroll,
 
     .home-content .text-animate h3 {
         font-size: 22px;
+    
+    }
+@media (max-width: 915px) {
+    .home-content .text-animate h3 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 915px) {
+    .home-content .text-animate h3 {
+        font-size: 22px;
+    }
+
+}
+@media (max-height: 182px) {
+    .header a {
+        margin: 2px;
+    }
+}
+
+@media (max-height: 170px) {
+    .header a {
+        margin: 0.5px;
+    }
+}
+
+@media (max-height: 420px),
+(max-width: 796px) {
+    .img__home-sci {
+        display: none;
+
+    }
+}
+
+@media (max-height: 420px) and (orientation: landscape),
+(max-width: 796px) and (orientation: landscape) {
+
+    .home-sci {
+        position: relative;
+        margin-left: 50px;
+        margin-right: 3px;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    
+        .home-sci a {
+    
+            margin-right: 10px;
+    
+        }
+        }
+    
+        .home-content .text-animate h3 {
+            white-space: nowrap;
+        }
+    
+        @media (max-height: 290px) and (orientation: landscape),
+        (max-width: 640px) and (orientation: landscape) {
+    
+            .home-content h1 {
+                font-size: 20px;
+    
+            }
+    
+            .home-content .text-animate h3 {
+                font-size: 22px;
+            }
+    
+            .home-content p {
+                margin-bottom: 15px;
+                margin-top: 10px;
+            }
+    
+            .header {
+                height: 25px;
+            }
+    
+            .home-imgHover {
+                max-height: 70%;
+            }
+        }
+    
+        @media (max-height: 535px) and (orientation: portrait),
+        (max-width: 320px) and (orientation: portrait) {
+    
+            .home-content h1 {
+                font-size: 20px;
+            }
+    
+            .home-content .text-animate h3 {
+                font-size: 22px;
+            }
+        }
+    
+        @media (max-width: 915px) {
+    
+            .home-content .text-animate h3 {
+                font-size: 22px;
+            }
+    
+        }
+@media (max-height: 182px) {
+    .header a {
+        margin: 2px;
+    }
+}
+
+@media (max-height: 170px) {
+    .header a {
+        margin: 0.5px;
+    }
+}
+
+@media (max-height: 420px),
+(max-width: 796px) {
+    .img__home-sci {
+        display: none;
+
+    }
+}
+
+@media (max-height: 420px) and (orientation: landscape),
+(max-width: 796px) and (orientation: landscape) {
+
+    .home-sci {
+        position: relative;
+        margin-left: 50px;
+        margin-right: 3px;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    
+        .home-sci a {
+    
+            margin-right: 10px;
+    
+        }
+        }
+    
+        .home-content .text-animate h3 {
+            white-space: nowrap;
+        }
+    
+        @media (max-height: 290px) and (orientation: landscape),
+        (max-width: 640px) and (orientation: landscape) {
+    
+            .home-content h1 {
+                font-size: 20px;
+    
+            }
+    
+            .home-content .text-animate h3 {
+                font-size: 22px;
+            }
+    
+            .home-content p {
+                margin-bottom: 15px;
+                margin-top: 10px;
+            }
+    
+            .header {
+                height: 25px;
+            }
+    
+            .home-imgHover {
+                max-height: 70%;
+            }
+        }
+    
+        @media (max-height: 535px) and (orientation: portrait),
+        (max-width: 320px) and (orientation: portrait) {
+
+    .home-content h1 {
+        font-size: 20px;
+        }
+
+        .home-content .text-animate h3 {
+            font-size: 22px;
+        }
+        }
+
+@media (max-width: 915px) {
+
+    .home-content .text-animate h3 {
+        font-size: 22px;
+    }
+
+}
+@media (max-width: 915px) {
+
+    .home-content .text-animate h3 {
+        font-size: 22px;
     }
 }
 
@@ -1626,7 +1349,7 @@ section:nth-child(odd) .animate.scroll,
         margin-top: 50px;
         justify-content: space-between;
     }
-
+    
     .home-sci a {
 
         margin-right: 10px;
@@ -1662,60 +1385,44 @@ section:nth-child(odd) .animate.scroll,
     .home-imgHover {
         max-height: 70%;
     }
-
 }
-
-@media (max-height: 290px) and (orientation: landscape),
-(max-width: 640px) and (orientation: landscape) {
+@media (max-height: 535px) and (orientation: portrait),
+(max-width: 320px) and (orientation: portrait) {
 
     .home-content h1 {
         font-size: 20px;
-
     }
 
     .home-content .text-animate h3 {
         font-size: 22px;
     }
 
-    .home-content p {
-        margin-bottom: 15px;
-        margin-top: 10px;
-    }
-
-    .header {
-        height: 25px;
-    }
-
-    .home-imgHover {
-        max-height: 70%;
-    }
 }
-
-@media (max-height: 290px) and (orientation: landscape),
-(max-width: 640px) and (orientation: landscape) {
-
-    .home-content h1 {
-        font-size: 20px;
-
-    }
+@media (max-width: 915px) {
 
     .home-content .text-animate h3 {
         font-size: 22px;
     }
+}
 
-    .home-content p {
-        margin-bottom: 15px;
-        margin-top: 10px;
+@media (max-height: 182px) {
+    .header a {
+        margin: 2px;
     }
+}
 
-    .header {
-        height: 25px;
+@media (max-height: 170px) {
+    .header a {
+        margin: 0.5px;
     }
+}
 
-    .home-imgHover {
-        max-height: 70%;
+@media (max-height: 420px),
+(max-width: 796px) {
+    .img__home-sci {
+        display: none;
+
     }
-
 }
 
 @media (max-height: 420px) and (orientation: landscape),
@@ -1728,95 +1435,93 @@ section:nth-child(odd) .animate.scroll,
         margin-top: 50px;
         justify-content: space-between;
     }
+    
+        .home-sci a {
+    
+            margin-right: 10px;
+    
+        }
+        }
+    
+        .home-content .text-animate h3 {
+            white-space: nowrap;
+        }
+    
+        @media (max-height: 290px) and (orientation: landscape),
+        (max-width: 640px) and (orientation: landscape) {
+    
+            .home-content h1 {
+                font-size: 20px;
+    
+            }
+    
+            .home-content .text-animate h3 {
+                font-size: 22px;
+            }
 
-    .home-sci a {
+        .home-content p {
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+    
+        .header {
+            height: 25px;
+        }
 
-        margin-right: 10px;
-
-    }
+        .home-imgHover {
+            max-height: 70%;
+        }
 }
 
-.home-content .text-animate h3 {
-    white-space: nowrap;
-}
-
-@media (max-height: 290px) and (orientation: landscape),
-(max-width: 640px) and (orientation: landscape) {
+@media (max-height: 535px) and (orientation: portrait),
+(max-width: 320px) and (orientation: portrait) {
 
     .home-content h1 {
         font-size: 20px;
-
     }
 
     .home-content .text-animate h3 {
         font-size: 22px;
     }
 
-    .home-content p {
-        margin-bottom: 15px;
-        margin-top: 10px;
-    }
-
-    .header {
-        height: 25px;
-    }
-
-    .home-imgHover {
-        max-height: 70%;
-    }
 }
-
-@media (max-height: 290px) and (orientation: landscape),
-(max-width: 640px) and (orientation: landscape) {
+@media (max-height: 535px) and (orientation: portrait),
+(max-width: 320px) and (orientation: portrait) {
 
     .home-content h1 {
         font-size: 20px;
-
     }
+
+        .home-content .text-animate h3 {
+            font-size: 22px;
+        }
+}
+
+@media (max-width: 915px) {
 
     .home-content .text-animate h3 {
         font-size: 22px;
     }
+}
 
-    .home-content p {
-        margin-bottom: 15px;
-        margin-top: 10px;
-    }
-
-    .header {
-        height: 25px;
-    }
-
-    .home-imgHover {
-        max-height: 70%;
+@media (max-height: 182px) {
+    .header a {
+        margin: 2px;
     }
 }
 
-@media (max-height: 290px) and (orientation: landscape),
-(max-width: 640px) and (orientation: landscape) {
+@media (max-height: 170px) {
+    .header a {
+        margin: 0.5px;
+    }
+}
 
-    .home-content h1 {
-        font-size: 20px;
+@media (max-height: 420px),
+(max-width: 796px) {
+    .img__home-sci {
+        display: none;
 
     }
-
-    .home-content .text-animate h3 {
-        font-size: 22px;
-    }
-
-    .home-content p {
-        margin-bottom: 15px;
-        margin-top: 10px;
-    }
-
-    .header {
-        height: 25px;
-    }
-
-    .home-imgHover {
-        max-height: 70%;
-    }
-
 }
 
 @media (max-height: 420px) and (orientation: landscape),
@@ -1829,7 +1534,193 @@ section:nth-child(odd) .animate.scroll,
         margin-top: 50px;
         justify-content: space-between;
     }
+    
+    .home-sci a {
 
+        margin-right: 10px;
+
+    }
+}
+
+.home-content .text-animate h3 {
+    white-space: nowrap;
+}
+
+@media (max-height: 290px) and (orientation: landscape),
+(max-width: 640px) and (orientation: landscape) {
+
+    .home-content h1 {
+        font-size: 20px;
+
+    }
+
+    .home-content .text-animate h3 {
+        font-size: 22px;
+    }
+
+    .home-content p {
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .header {
+        height: 25px;
+    }
+
+    .home-imgHover {
+        max-height: 70%;
+    }
+
+}
+@media (max-height: 535px) and (orientation: portrait),
+(max-width: 320px) and (orientation: portrait) {
+
+    .home-content h1 {
+        font-size: 20px;
+    }
+
+    .home-content .text-animate h3 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 915px) {
+
+    .home-content .text-animate h3 {
+        font-size: 22px;
+    }
+}
+
+@media (max-height: 182px) {
+    .header a {
+        margin: 2px;
+    }
+}
+
+@media (max-height: 170px) {
+    .header a {
+        margin: 0.5px;
+    }
+}
+
+@media (max-height: 420px),
+(max-width: 796px) {
+    .img__home-sci {
+        display: none;
+
+    }
+}
+
+@media (max-height: 420px) and (orientation: landscape),
+(max-width: 796px) and (orientation: landscape) {
+
+    .home-sci {
+        position: relative;
+        margin-left: 50px;
+        margin-right: 3px;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    
+    .home-sci a {
+
+        margin-right: 10px;
+
+    }
+}
+
+.home-content .text-animate h3 {
+    white-space: nowrap;
+}
+
+@media (max-height: 290px) and (orientation: landscape),
+(max-width: 640px) and (orientation: landscape) {
+
+    .home-content h1 {
+        font-size: 20px;
+
+    }
+
+    .home-content .text-animate h3 {
+        font-size: 22px;
+    }
+
+    .home-content p {
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .header {
+        height: 25px;
+    }
+
+    .home-imgHover {
+        max-height: 70%;
+    }
+
+}
+@media (max-height: 290px) and (orientation: landscape),
+(max-width: 640px) and (orientation: landscape) {
+
+    .home-content h1 {
+        font-size: 20px;
+
+    }
+
+    .home-content .text-animate h3 {
+        font-size: 22px;
+    }
+
+    .home-content p {
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .header {
+        height: 25px;
+    }
+
+    .home-imgHover {
+        max-height: 70%;
+    }
+}
+@media (max-height: 290px) and (orientation: landscape),
+(max-width: 640px) and (orientation: landscape) {
+
+    .home-content h1 {
+        font-size: 20px;
+
+    }
+
+    .home-content .text-animate h3 {
+        font-size: 22px;
+    }
+
+    .home-content p {
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .header {
+        height: 25px;
+    }
+
+    .home-imgHover {
+        max-height: 70%;
+    }
+
+}
+@media (max-height: 420px) and (orientation: landscape),
+(max-width: 796px) and (orientation: landscape) {
+
+    .home-sci {
+        position: relative;
+        margin-left: 50px;
+        margin-right: 3px;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    
     .home-sci a {
 
         margin-right: 10px;
@@ -1919,6 +1810,27 @@ section:nth-child(odd) .animate.scroll,
     }
 
 }
+@media (max-height: 420px) and (orientation: landscape),
+(max-width: 796px) and (orientation: landscape) {
+
+    .home-sci {
+        position: relative;
+        margin-left: 50px;
+        margin-right: 3px;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    
+    .home-sci a {
+
+        margin-right: 10px;
+
+    }
+}
+
+.home-content .text-animate h3 {
+    white-space: nowrap;
+}
 
 @media (max-height: 290px) and (orientation: landscape),
 (max-width: 640px) and (orientation: landscape) {
@@ -1944,7 +1856,32 @@ section:nth-child(odd) .animate.scroll,
     .home-imgHover {
         max-height: 70%;
     }
+}
 
+@media (max-height: 290px) and (orientation: landscape),
+(max-width: 640px) and (orientation: landscape) {
+
+    .home-content h1 {
+        font-size: 20px;
+
+    }
+
+    .home-content .text-animate h3 {
+        font-size: 22px;
+    }
+
+    .home-content p {
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .header {
+        height: 25px;
+    }
+
+    .home-imgHover {
+        max-height: 70%;
+    }
 }
 
 @media (max-height: 290px) and (orientation: landscape),
@@ -1973,7 +1910,6 @@ section:nth-child(odd) .animate.scroll,
     }
 
 }
-
 @media (max-height: 290px) and (orientation: landscape),
 (max-width: 640px) and (orientation: landscape) {
 
@@ -2000,7 +1936,58 @@ section:nth-child(odd) .animate.scroll,
     }
 
 }
+@media (max-height: 290px) and (orientation: landscape),
+(max-width: 640px) and (orientation: landscape) {
 
+    .home-content h1 {
+        font-size: 20px;
+
+    }
+
+    .home-content .text-animate h3 {
+        font-size: 22px;
+    }
+
+    .home-content p {
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .header {
+        height: 25px;
+    }
+
+    .home-imgHover {
+        max-height: 70%;
+    }
+
+}
+@media (max-height: 290px) and (orientation: landscape),
+(max-width: 640px) and (orientation: landscape) {
+
+    .home-content h1 {
+        font-size: 20px;
+
+    }
+
+    .home-content .text-animate h3 {
+        font-size: 22px;
+    }
+
+    .home-content p {
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .header {
+        height: 25px;
+    }
+
+    .home-imgHover {
+        max-height: 70%;
+    }
+
+}
 @media (max-height: 290px) and (orientation: landscape),
 (max-width: 640px) and (orientation: landscape) {
 
