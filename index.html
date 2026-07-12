@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P. Kostadinov Portfolio</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
     <!-- box icons -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
@@ -20,7 +21,10 @@
     <!-- header -->
 
     <header class="header">
-        <a href="#" class="logo">Petar. <span class="animate" style="--i:1;"></span></a>
+        <a href="#home" class="logo" aria-label="Petar Kostadinov — Home">
+            <img src="/images/favicon.svg" alt="PK logo">
+            <span class="animate" style="--i:1;"></span>
+        </a>
 
         <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
 
@@ -44,18 +48,17 @@
             <div class="text-animate">
                 <h3>JavaScript Developer</h3>
             </div>
-            <p>Hardworking and with a strong desire to learn new things. Experienced in different professional fields and ready for new challenges.
+            <p>Software engineer who turns complex requirements into clear, dependable web solutions. I bring a practical mindset, careful attention to quality, and a strong sense of ownership to every project.
                 <span class="animate" style="--i:4;"></span>
             </p>
             <div class="home-contact">
-                <p><i class="bx bx-envelope"></i> petar_vs@outlook.com</p>
+                <p><a href="#contact"><i class="bx bx-envelope"></i> petar_vs@outlook.com</a></p>
                 <p><i class="bx bx-phone"></i> +359 988 821 444</p>
-                <p><i class="bx bx-map"></i> Burgas, Bulgaria</p>
+                <p><a href="https://www.google.com/maps/place/Burgas/@42.5266569,27.2871556,11z/data=!3m1!4b1!4m6!3m5!1s0x40a69266f9fc9d91:0x400a01269bf4df0!8m2!3d42.5047926!4d27.4626361!16zL20vMGx4ZnQ?entry=ttu&amp;g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer" aria-label="View Burgas, Bulgaria on Google Maps"><i class="bx bx-map"></i> Burgas, Bulgaria</a></p>
             </div>
             <div class="home-sci" aria-label="Social media links">
                 <a href="https://www.linkedin.com/in/petar-kostadinov-759ba8213/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="bx bxl-linkedin-square"></i></a>
-                <a href="https://github.com/PetarKostadinov?tab=repositories" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="bx bxl-github"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=100000562363371" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="bx bxl-facebook-square"></i></a>
+                <a href="https://github.com/PetarKostadinov" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="bx bxl-github"></i></a>
                 <span class="animate" style="--i:6;"></span>
             </div>
         </div>
@@ -76,7 +79,7 @@
         </div>
         <div class="about__content">
             <h3>Full-Stack JavaScript Developer<span class="animate scroll" style="--i:3;"></span></h3>
-            <p>I am Petar Kostadinov, a full-stack JavaScript developer with experience building scalable web applications and modern platform solutions. My background includes enterprise development at Financial Times and survey engineering at Ipsos, where I combined development, quality assurance, and client communication. I enjoy solving technical challenges, improving systems, and continuously learning new tools and practices.
+            <p>I am Petar Kostadinov, a full-stack JavaScript developer experienced in building and maintaining enterprise web applications. At the Financial Times, I have contributed to frontend and backend development, cloud infrastructure, platform modernization, service integrations, and observability. My earlier work at Ipsos strengthened my skills in quality assurance, client communication, and delivering accurate solutions under tight deadlines. I value thoughtful engineering, effective teamwork, and continuous professional growth.
                 <span class="animate scroll" style="--i:4;"></span>
             </p>
         </div>
@@ -94,20 +97,31 @@
         <div class="education__row">
 
             <div class="education__column">
-                <h3 class="title">Education<span class="animate scroll" style="--i:2;"></span></h3>
+                <h3 class="title"><i class="bx bxs-graduation"></i> Education<span class="animate scroll" style="--i:2;"></span></h3>
                 <div class="education__box">
                     <div class="education__content">
                         <div class="content">
                             <div class="year"><i class="bx bxs-calendar"></i> 05/2020 - 04/2023</div>
-                            <h3>JavaScript Developer - Software University (SoftUni)</h3>
+                            <h3>JavaScript Developer — <a class="organization-link" href="https://softuni.bg/" target="_blank" rel="noreferrer">Software University (SoftUni)</a></h3>
                             <p>Completed the full JavaScript development track, including front-end, back-end, applications, advanced JavaScript, and object-oriented programming.</p>
+                            <h4>Certificates</h4>
+                            <ul class="certificate-list">
+                                <li><a href="https://softuni.bg/certificates/details/249663/718f72ec" target="_blank" rel="noreferrer">Containers &amp; Cloud</a></li>
+                                <li><a href="https://softuni.bg/Certificates/Details/168655/07bb47d3" target="_blank" rel="noreferrer">React JS</a></li>
+                                <li><a href="https://softuni.bg/Certificates/Details/162706/17d32a16" target="_blank" rel="noreferrer">JS Back-End</a></li>
+                                <li><a href="https://softuni.bg/certificates/details/150023/a18b36b1" target="_blank" rel="noreferrer">JS Applications</a></li>
+                                <li><a href="https://softuni.bg/certificates/details/145634/e52226e5" target="_blank" rel="noreferrer">JS Advanced</a></li>
+                                <li><a href="https://softuni.bg/certificates/details/104307/7679b66e" target="_blank" rel="noreferrer">C# OOP</a></li>
+                                <li><a href="https://softuni.bg/certificates/details/98163/a66c100d" target="_blank" rel="noreferrer">C# Advanced</a></li>
+                                <li><a href="https://softuni.bg/certificates/details/96391/a5f019ed" target="_blank" rel="noreferrer">C# Fundamentals</a></li>
+                            </ul>
                         </div>
                     </div>
 
                     <div class="education__content">
                         <div class="content">
                             <div class="year"><i class="bx bxs-calendar"></i> 09/2006 - 05/2010</div>
-                            <h3>Transportation equipment and technologies - University 'Prof. Dr. Assen Zlatarov' - Burgas</h3>
+                            <h3>Transportation Equipment and Technologies — <a class="organization-link" href="https://btu.bg/index.php/en/" target="_blank" rel="noreferrer">Burgas State University “Prof. Dr. Assen Zlatarov”</a></h3>
                             <p>Graduated with a degree in transportation equipment and technologies.</p>
                         </div>
                     </div>
@@ -116,12 +130,12 @@
             </div>
 
             <div class="education__column">
-                <h3 class="title">Experience<span class="animate scroll" style="--i:4;"></span></h3>
+                <h3 class="title"><i class="bx bxs-briefcase-alt-2"></i> Experience<span class="animate scroll" style="--i:4;"></span></h3>
                 <div class="education__box">
                     <div class="education__content">
                         <div class="content">
                             <div class="year"><i class="bx bxs-calendar"></i> 08/2023 - Present</div>
-                            <h3>Software Engineer - Financial Times</h3>
+                            <h3>Software Engineer — <a class="organization-link" href="https://www.linkedin.com/company/ftsofia/posts/?feedView=all" target="_blank" rel="noreferrer">Financial Times</a></h3>
                             <p>Remote / Bulgaria</p>
                             <ul>
                                 <li>Develop and maintain enterprise-scale web applications using modern JavaScript and TypeScript.</li>
@@ -136,7 +150,7 @@
                     <div class="education__content">
                         <div class="content">
                             <div class="year"><i class="bx bxs-calendar"></i> 05/2021 - 10/2022</div>
-                            <h3>Survey Developer - Ipsos</h3>
+                            <h3>Survey Developer — <a class="organization-link" href="https://www.linkedin.com/company/ipsos/posts/?feedView=all" target="_blank" rel="noreferrer">Ipsos</a></h3>
                             <p>Remote / Bulgaria</p>
                             <ul>
                                 <li>Created questionnaires based on client materials while meeting strict deadlines.</li>
@@ -161,26 +175,32 @@
 
                 <div class="skills__box">
                     <div class="skills__content">
-                        <div class="skill-tags">
-                            <span>JavaScript</span>
-                            <span>TypeScript</span>
-                            <span>C#</span>
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>Express</span>
-                            <span>React</span>
-                            <span>Bootstrap</span>
-                            <span>LitHTML</span>
-                            <span>REST</span>
-                            <span>GraphQL</span>
-                            <span>Jest</span>
-                            <span>Mocha/Chai</span>
-                            <span>MongoDB</span>
-                            <span>AWS</span>
-                            <span>Cloudflare</span>
-                            <span>CircleCI</span>
-                            <span>Doppler</span>
-                            <span>Grafana</span>
+                        <div class="skill-group">
+                            <h4><i class="bx bx-code-alt"></i> Languages &amp; Frontend</h4>
+                            <div class="skill-tags">
+                                <span>JavaScript</span><span>TypeScript</span><span>C#</span>
+                                <span>HTML</span><span>CSS</span><span>React</span>
+                                <span>Bootstrap</span><span>LitHTML</span>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <h4><i class="bx bx-server"></i> Backend &amp; Data</h4>
+                            <div class="skill-tags">
+                                <span>Express</span><span>REST</span><span>GraphQL</span><span>MongoDB</span>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <h4><i class="bx bx-cloud"></i> Cloud &amp; Platform</h4>
+                            <div class="skill-tags">
+                                <span>AWS</span><span>Cloudflare</span><span>CircleCI</span>
+                                <span>Doppler</span><span>Grafana</span>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <h4><i class="bx bx-check-shield"></i> Testing</h4>
+                            <div class="skill-tags">
+                                <span>Jest</span><span>Mocha/Chai</span>
+                            </div>
                         </div>
                     </div>
                     <span class="animate scroll" style="--i:3;"></span>
@@ -188,15 +208,26 @@
             </div>
 
             <div class="skills__column">
-                <h3 class="title">Languages & Soft Skills<span class="animate scroll" style="--i:5;"></span></h3>
+                <h3 class="title">Languages &amp; Professional Strengths<span class="animate scroll" style="--i:5;"></span></h3>
 
                 <div class="skills__box">
                     <div class="skills__content">
-                        <ul class="skill-list">
-                            <li><strong>Bulgarian</strong> — 100/100</li>
-                            <li><strong>English</strong> — 80/100</li>
-                            <li><strong>Soft skills:</strong> Attention to detail, Problem-solving, Teamwork and Collaboration, Continuous Learning, Communication, Adaptability</li>
-                        </ul>
+                        <div class="language-list">
+                            <div><span>Bulgarian</span><strong>Native</strong></div>
+                            <div><span>English</span><strong>Professional working proficiency</strong></div>
+                        </div>
+                        <div class="strengths-block">
+                            <h4><i class="bx bx-user-check"></i> How I Work</h4>
+                            <div class="strength-tags">
+                                <span>Problem-solving</span>
+                                <span>Attention to detail</span>
+                                <span>Team collaboration</span>
+                                <span>Clear communication</span>
+                                <span>Adaptability</span>
+                                <span>Continuous learning</span>
+                                <span>Ownership</span>
+                            </div>
+                        </div>
                     </div>
                     <span class="animate scroll" style="--i:6;"></span>
                 </div>
@@ -205,79 +236,80 @@
     </section>
 
     <section class="projects" id="projects">
-        <h2 class="heading">Projects <span>& Certificates</span><span class="animate scroll" style="--i:1;"></span></h2>
+        <h2 class="heading">Featured <span>Projects</span><span class="animate scroll" style="--i:1;"></span></h2>
         <div class="projects__grid">
-            <div class="project-card">
-                <h3>ShoppingWell (MERN)</h3>
-                <p>My defense project for the React JS course at SoftUni.</p>
-                <a href="https://github.com/PetarKostadinov/shoppingCart" target="_blank" rel="noreferrer">View project</a>
-            </div>
-            <div class="project-card">
+            <article class="project-card">
+                <div class="project-card__top">
+                    <span class="project-icon"><i class="bx bx-shopping-bag"></i></span>
+                    <span class="project-type">Full-stack application</span>
+                </div>
+                <h3>ShoppingWell</h3>
+                <p>A MERN shopping application developed as my React JS course defense project at SoftUni.</p>
+                <div class="project-tech" aria-label="Technologies used">
+                    <span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span>
+                </div>
+                <a class="project-link" href="https://github.com/PetarKostadinov/shoppingCart" target="_blank" rel="noreferrer">View repository <i class="bx bx-right-arrow-alt"></i></a>
+                <span class="animate scroll" style="--i:3;"></span>
+            </article>
+            <article class="project-card">
+                <div class="project-card__top">
+                    <span class="project-icon"><i class="bx bx-message-rounded-dots"></i></span>
+                    <span class="project-type">Real-time application</span>
+                </div>
                 <h3>MyReactChat</h3>
-                <p>Real-time application built with Socket.IO.</p>
-                <a href="https://github.com/PetarKostadinov/MyReactChat" target="_blank" rel="noreferrer">View project</a>
-            </div>
-            <div class="project-card">
-                <h3>Certificates</h3>
-                <ul>
-                    <li>Containers & Cloud</li>
-                    <li>React JS</li>
-                    <li>JS Back-end</li>
-                    <li>JS Applications</li>
-                    <li>JS Advanced</li>
-                    <li>C# OOP</li>
-                    <li>C# Advanced</li>
-                </ul>
-            </div>
-            <div class="project-card">
-                <h3>GitHub</h3>
-                <p>All of my tasks and projects are available on GitHub.</p>
-                <a href="https://github.com/PetarKostadinov" target="_blank" rel="noreferrer">Visit GitHub</a>
-            </div>
+                <p>A real-time chat application focused on responsive communication through Socket.IO.</p>
+                <div class="project-tech" aria-label="Technologies used">
+                    <span>JavaScript</span><span>React</span><span>Socket.IO</span><span>Node.js</span>
+                </div>
+                <a class="project-link" href="https://github.com/PetarKostadinov/MyReactChat" target="_blank" rel="noreferrer">View repository <i class="bx bx-right-arrow-alt"></i></a>
+                <span class="animate scroll" style="--i:4;"></span>
+            </article>
+            <article class="project-card project-card--github">
+                <div>
+                    <span class="project-icon"><i class="bx bxl-github"></i></span>
+                    <h3>Explore More on GitHub</h3>
+                    <p>Browse my repositories, course work, experiments, and other development projects.</p>
+                </div>
+                <a class="project-link" href="https://github.com/PetarKostadinov" target="_blank" rel="noreferrer">Visit GitHub profile <i class="bx bx-right-arrow-alt"></i></a>
+                <span class="animate scroll" style="--i:5;"></span>
+            </article>
         </div>
     </section>
 
     <!-- contact section -->
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
-
-        <form onsubmit="sendEmail(); reset(); return false;" action="#" class="contact__form">
-            <div class="input-box">
-                <div class="input-field">
-                    <input id="name" type="text" placeholder="Full Name" required />
-                    <span class="focus"></span>
+        <div class="contact-layout">
+            <form id="contact-form" class="contact__form">
+                <div class="input-box">
+                    <div class="input-field">
+                        <label for="name">Full name</label>
+                        <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required />
+                    </div>
+                    <div class="input-field">
+                        <label for="email">Email address</label>
+                        <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+                    </div>
                 </div>
-                <div class="input-field">
-                    <input id="email" type="text" placeholder="Email Address" required />
-                    <span class="focus"></span>
+
+                <div class="input-box input-box--single">
+                    <div class="input-field">
+                        <label for="subject">Subject</label>
+                        <input id="subject" name="subject" type="text" placeholder="How can I help?" required />
+                    </div>
                 </div>
 
-                <span class="animate scroll" style="--i:3;"></span>
-            </div>
-
-            <div class="input-box">
-                <div class="input-field">
-                    <input id="number" type="number" placeholder="Mobile Number" required />
-                    <span class="focus"></span>
+                <div class="textarea-field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="6" placeholder="Tell me about the opportunity or project..." required></textarea>
                 </div>
-                <div class="input-field">
-                    <input id="subject" type="text" placeholder="Email Subject" required />
-                    <span class="focus"></span>
+
+                <div class="contact-submit">
+                    <p id="form-status" aria-live="polite">This opens your email application.</p>
+                    <button type="submit" class="contact-button" id="submit__btn">Send message <i class="bx bx-send"></i></button>
                 </div>
-                <span class="animate scroll" style="--i:5;"></span>
-            </div>
-
-            <div class="textarea-field">
-                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-                <span class="focus"></span>
-                <span class="animate scroll" style="--i:7;"></span>
-            </div>
-
-            <div class="btn-box btns">
-                <button type="submit" class="btn" id="submit__btn">Submit</button>
-                <span class="animate scroll" style="--i:9;"></span>
-            </div>
-        </form>
+            </form>
+        </div>
     </section>
 
     <!-- footer -->
@@ -297,36 +329,6 @@
 
 
     <script src="/js/script.js"></script>
-    <script const src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail() {
-            const fullName = document.querySelector('#name')
-            const mobileNumber = document.querySelector('#number')
-            const emailAdress = document.querySelector('#email')
-            const subject = document.querySelector('#subject')
-            const message = document.querySelector('#message')
-            const body = 'name: ' + fullName.value
-                + '<br/>' + 'mobile number: '
-                + mobileNumber.value + '<br/>'
-                + 'email: ' + emailAdress.value
-                + '<br/>' + 'subject: ' + subject.value
-                + '<br/> <br/>'
-                + 'message: ' + message.value
-            ////////
-            Email.send({
-                Host: "smtp.elasticemail.com",
-                Username: "petar_vs@outlook.com",
-                Password: "3C78EE41D7B59CC732B4C76B07B22457753E",
-                From: "petarkostadinov30@gmail.com",
-                To: "petar_vs@outlook.com",
-                Subject: subject.value,
-                Body: body
-            }).then(
-                message => alert(message)
-            );
-        }
-
-    </script>
 </body>
 
 </html>

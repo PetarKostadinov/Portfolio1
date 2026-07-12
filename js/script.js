@@ -2,6 +2,22 @@
 let menuIcon = document.querySelector('#menu-icon')
 let navbar = document.querySelector('.navbar')
 
+const contactForm = document.querySelector('#contact-form')
+
+contactForm?.addEventListener('submit', event => {
+    event.preventDefault()
+
+    const data = new FormData(contactForm)
+    const subject = encodeURIComponent(data.get('subject'))
+    const body = encodeURIComponent(
+        `Name: ${data.get('name')}\n` +
+        `Email: ${data.get('email')}\n` +
+        `Message:\n${data.get('message')}`
+    )
+
+    window.location.href = `mailto:petar_vs@outlook.com?subject=${subject}&body=${body}`
+})
+
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x')
     navbar.classList.toggle('active')

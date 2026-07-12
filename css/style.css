@@ -60,9 +60,22 @@ a {
 
 .logo {
     position: relative;
-    font-size: 2.5rem;
-    color: var(--text-color);
-    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo img {
+    display: block;
+    width: 4.6rem;
+    height: 4.6rem;
+    border-radius: 1rem;
+    transition: transform .3s, filter .3s;
+}
+
+.logo:hover img,
+.logo:focus-visible img {
+    transform: translateY(-2px);
+    filter: drop-shadow(0 0 .6rem rgba(0, 171, 240, .55));
 }
 
 .navbar {
@@ -296,10 +309,12 @@ section {
     margin: 95px;
     transition: 3s;
 }
- .img__home-sci {
+.img__home-sci {
     position: absolute;
     max-width: 100%;
-        max-height: 100%;
+    max-height: 100%;
+    -webkit-mask-image: radial-gradient(ellipse 72% 75% at 52% 48%, #000 62%, transparent 100%);
+    mask-image: radial-gradient(ellipse 72% 75% at 52% 48%, #000 62%, transparent 100%);
 }
 
 
@@ -607,6 +622,19 @@ span {
     color: var(--main-color);
 }
 
+.home-contact a {
+    display: inline-flex;
+    align-items: center;
+    gap: .7rem;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.home-contact a:hover,
+.home-contact a:focus-visible {
+    color: var(--main-color);
+}
+
 .skill-tags {
     display: flex;
     flex-wrap: wrap;
@@ -637,6 +665,32 @@ span {
     display: grid;
     gap: .6rem;
     font-size: 1.4rem;
+}
+
+.content h4 {
+    margin-top: 1.2rem;
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+
+.content .certificate-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .35rem 2rem;
+}
+
+.certificate-list a {
+    transition: color .3s;
+}
+
+.certificate-list a:hover,
+.certificate-list a:focus-visible {
+    color: var(--main-color);
+}
+
+@media (max-width: 520px) {
+    .content .certificate-list {
+        grid-template-columns: 1fr;
+    }
 }
 
 .projects {
@@ -887,7 +941,7 @@ section.projects .animate.scroll {
 .about.show-animate .animate.scroll,
 .education.show-animate .animate.scroll,
 .skills.show-animate .animate.scroll,
-.skills.show-animate .animate.scroll,
+.projects.show-animate .animate.scroll,
 .contact.show-animate .animate.scroll,
 .footer.show-animate .animate.scroll {
     transition-delay: calc(.3s * var(--i));
@@ -1186,6 +1240,24 @@ section.projects .animate.scroll {
         max-height: 70%;
     }
 
+}
+
+/* Keep hero content clear of the fixed header and logo. */
+.home {
+    padding: 10rem 9% 4rem;
+}
+
+@media (max-width: 768px) {
+    .home {
+        padding-top: 9rem;
+    }
+}
+
+@media (max-height: 600px) and (orientation: landscape) {
+    .home {
+        align-items: flex-start;
+        padding-top: 8rem;
+    }
 }
 
 /* Keep contact details and social links in one responsive content flow. */
