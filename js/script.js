@@ -42,6 +42,14 @@ contactForm?.addEventListener('submit', async event => {
 
 let sections = document.querySelectorAll('section')
 let navLinks = document.querySelectorAll('header nav a')
+
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        navLinks.forEach(navLink => navLink.classList.remove('active'))
+        link.classList.add('active')
+    })
+})
+
 window.onscroll = () => {
     sections.forEach(sec => {
         let top = window.scrollY

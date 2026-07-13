@@ -76,6 +76,33 @@
         padding-right: 4%;
         padding-left: 4%;
     }
+
+    .home-mobile-portrait {
+        display: block;
+        width: 10rem;
+        height: 10rem;
+        margin-bottom: 1.5rem;
+        border: .2rem solid var(--main-color);
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center top;
+        background: var(--second-bg-color);
+        box-shadow: 0 0 2rem rgba(0, 171, 240, .2);
+    }
+}
+
+@media (max-width: 768px) and (max-height: 750px) {
+    .home-mobile-portrait {
+        width: 8rem;
+        height: 8rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-height: 600px) and (orientation: landscape) {
+    .home-mobile-portrait {
+        display: none;
+    }
 }
 
 /* Keep the About section complete and balanced on short viewports. */
@@ -440,6 +467,16 @@
         padding-right: 4%;
         padding-left: 4%;
     }
+
+    /* Keep long titles on one responsive line for a clean reveal animation. */
+    .skills__column .title {
+        display: inline-block;
+        width: fit-content;
+        max-width: 100%;
+        font-size: clamp(1.55rem, 5vw, 2.5rem);
+        white-space: nowrap;
+        overflow: hidden;
+    }
 }
 
 @media (min-width: 769px) and (max-height: 750px) {
@@ -734,8 +771,31 @@
 @media (max-width: 768px) {
     .contact {
         min-height: auto;
+        padding-top: 7rem;
+        padding-bottom: 3rem;
         padding-right: 4%;
         padding-left: 4%;
+    }
+
+    .contact > .heading {
+        margin-bottom: 1.5rem;
+    }
+
+    .contact form.contact__form {
+        padding: 1.5rem;
+    }
+
+    .contact form .input-box .input-field {
+        margin: .2rem 0 .6rem;
+    }
+
+    .contact form .textarea-field {
+        margin: .2rem 0 .8rem;
+    }
+
+    .contact form .textarea-field textarea {
+        min-height: 12rem;
+        height: 12rem;
     }
 }
 
@@ -748,6 +808,7 @@
     .contact-submit {
         align-items: stretch;
         flex-direction: column;
+        gap: 1rem;
     }
 
     .contact-button {
@@ -1145,5 +1206,22 @@
 
     .project-card--github .project-icon {
         margin-bottom: 1.5rem;
+    }
+}
+
+/* Consistent, compact spacing below the fixed header on mobile. */
+@media (max-width: 768px) {
+    .about,
+    .education,
+    .skills,
+    .projects,
+    .contact {
+        padding-top: 7rem;
+        padding-bottom: 3rem;
+    }
+
+    .about {
+        min-height: auto;
+        justify-content: flex-start;
     }
 }
