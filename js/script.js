@@ -1,27 +1,44 @@
 
-let menuIcon = document.querySelector('#menu-icon')
-let navbar = document.querySelector('.navbar')
-
 const contactForm = document.querySelector('#contact-form')
+const currentYear = document.querySelector('#current-year')
 
-contactForm?.addEventListener('submit', event => {
+if (currentYear) {
+    currentYear.textContent = new Date().getFullYear()
+}
+
+contactForm?.addEventListener('submit', async event => {
     event.preventDefault()
 
-    const data = new FormData(contactForm)
-    const subject = encodeURIComponent(data.get('subject'))
-    const body = encodeURIComponent(
-        `Name: ${data.get('name')}\n` +
-        `Email: ${data.get('email')}\n` +
-        `Message:\n${data.get('message')}`
-    )
+    const submitButton = contactForm.querySelector('#submit__btn')
+    const formStatus = contactForm.querySelector('#form-status')
 
-    window.location.href = `mailto:petar_vs@outlook.com?subject=${subject}&body=${body}`
+    submitButton.disabled = true
+    submitButton.innerHTML = 'Sending... <i class="bx bx-loader-alt bx-spin"></i>'
+    formStatus.className = ''
+    formStatus.textContent = 'Sending your message...'
+
+    try {
+        const response = await fetch(contactForm.action, {
+            method: contactForm.method,
+            body: new FormData(contactForm),
+            headers: { Accept: 'application/json' }
+        })
+
+        if (!response.ok) {
+            throw new Error('Form submission failed')
+        }
+
+        contactForm.reset()
+        formStatus.className = 'form-status--success'
+        formStatus.textContent = 'Thank you! Your message has been sent.'
+    } catch {
+        formStatus.className = 'form-status--error'
+        formStatus.textContent = 'The message could not be sent. Please try again.'
+    } finally {
+        submitButton.disabled = false
+        submitButton.innerHTML = 'Send message <i class="bx bx-send"></i>'
+    }
 })
-
-menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bx-x')
-    navbar.classList.toggle('active')
-}
 
 let sections = document.querySelectorAll('section')
 let navLinks = document.querySelectorAll('header nav a')
@@ -45,9 +62,6 @@ window.onscroll = () => {
     })
     let header = document.querySelector('header')
     header.classList.toggle('sticky', window.scrollY > 10)
-
-    menuIcon.classList.remove('bx-x')
-    navbar.classList.remove('active')
 
     let footer = document.querySelector('footer')
 

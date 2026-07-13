@@ -26,15 +26,13 @@
             <span class="animate" style="--i:1;"></span>
         </a>
 
-        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
-
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#education">My Journey</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+        <nav class="navbar" aria-label="Primary navigation">
+            <a href="#home" class="active"><i class="bx bx-home-alt" aria-hidden="true"></i><span>Home</span></a>
+            <a href="#about"><i class="bx bx-user" aria-hidden="true"></i><span>About</span></a>
+            <a href="#education"><i class="bx bx-map-alt" aria-hidden="true"></i><span>Journey</span></a>
+            <a href="#skills"><i class="bx bx-code-alt" aria-hidden="true"></i><span>Skills</span></a>
+            <a href="#projects"><i class="bx bx-briefcase-alt-2" aria-hidden="true"></i><span>Projects</span></a>
+            <a href="#contact"><i class="bx bx-envelope" aria-hidden="true"></i><span>Contact</span></a>
 
             <span class="active-nav"></span>
             <span class="animate" style="--i:2;"></span>
@@ -280,7 +278,7 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
         <div class="contact-layout">
-            <form id="contact-form" class="contact__form">
+            <form id="contact-form" class="contact__form" action="https://formspree.io/f/xwvgkayd" method="POST">
                 <div class="input-box">
                     <div class="input-field">
                         <label for="name">Full name</label>
@@ -305,9 +303,10 @@
                 </div>
 
                 <div class="contact-submit">
-                    <p id="form-status" aria-live="polite">This opens your email application.</p>
+                    <p id="form-status" aria-live="polite">Your message will be sent directly to my inbox.</p>
                     <button type="submit" class="contact-button" id="submit__btn">Send message <i class="bx bx-send"></i></button>
                 </div>
+                <span class="animate scroll" style="--i:2;"></span>
             </form>
         </div>
     </section>
@@ -316,7 +315,7 @@
 
     <footer class="footer">
         <div class="footer__text">
-            <p>Copyright &copy; 2023 by Petar Kostadinov | All right Reserved.</p>
+            <p>&copy; <span id="current-year"></span> Petar Kostadinov. All rights reserved.</p>
             <span class="animate scroll" style="--i:1;"></span>
         </div>
 
