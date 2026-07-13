@@ -50,7 +50,10 @@ navLinks.forEach(link => {
     })
 })
 
-window.onscroll = () => {
+const header = document.querySelector('header')
+const footer = document.querySelector('footer')
+
+function updatePageOnScroll() {
     sections.forEach(sec => {
         let top = window.scrollY
         let offset = sec.offsetTop - 100
@@ -68,24 +71,17 @@ window.onscroll = () => {
             sec.classList.remove('show-animate')
         }
     })
-    let header = document.querySelector('header')
+
     header.classList.toggle('sticky', window.scrollY > 10)
 
-    let footer = document.querySelector('footer')
-
-    function animateFooter() {
-        let rect = footer.getBoundingClientRect()
-        if (rect.top <= window.innerHeight && rect.bottom >= 0) {
-            footer.classList.add('show-animate')
-        } else {
-            footer.classList.remove('show-animate')
-        }
+    const footerRect = footer.getBoundingClientRect()
+    if (footerRect.top <= window.innerHeight && footerRect.bottom >= 0) {
+        footer.classList.add('show-animate')
+    } else {
+        footer.classList.remove('show-animate')
     }
-
-    window.addEventListener('scroll', animateFooter)
-
 }
 
-
-
+window.addEventListener('scroll', updatePageOnScroll, { passive: true })
+updatePageOnScroll()
 
