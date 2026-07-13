@@ -313,6 +313,11 @@ section {
     display: none;
 }
 
+/* Keep the retired mobile-menu trigger hidden if older HTML is cached. */
+#menu-icon {
+    display: none !important;
+}
+
 
 .home-imgHover:hover {
     background: var(--bg-color);
