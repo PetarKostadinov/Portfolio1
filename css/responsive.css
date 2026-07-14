@@ -1219,6 +1219,35 @@
     }
 }
 
+/* Respect operating-system accessibility preferences. */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+
+    .animate,
+    .animate.scroll {
+        width: 0 !important;
+    }
+
+    .home-content .text-animate h3 {
+        color: var(--main-color);
+        -webkit-text-stroke: 0;
+        background: none;
+    }
+
+    .home-content .text-animate h3::before {
+        display: none;
+    }
+}
+
 /* Consistent, compact spacing below the fixed header on mobile. */
 @media (max-width: 768px) {
     .about,

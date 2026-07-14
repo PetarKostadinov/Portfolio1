@@ -44,7 +44,8 @@ Portfolio1/
 │   └── style.css
 ├── images/
 │   ├── favicon.svg
-│   └── home-professional-navy.png
+│   ├── home-professional-navy.jpg
+│   └── home-professional-navy.png (source image)
 ├── js/
 │   └── script.js
 ├── index.html
