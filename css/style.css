@@ -146,6 +146,11 @@ section {
     display: none;
 }
 
+.home-mobile-portrait-wrap {
+    display: none;
+    position: relative;
+}
+
 .home-content h1 {
     position: relative;
     display: inline-block;
